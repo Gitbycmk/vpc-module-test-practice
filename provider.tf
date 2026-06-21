@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "cmk-remote-state-bucket-2"
-    key = "vpc-module-practice-demo"
+    key = "vpc-module-test-practice-demo"
     region = "us-east-1"
     use_lockfile = true
     encrypt = true
